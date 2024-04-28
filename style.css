@@ -36,8 +36,7 @@
   }
 
 
-  .text h1{
-=======
+  /* .text h1{ */
 
 .container{
   max-width: 1440px;
@@ -174,7 +173,5 @@
     padding: 10px 40.1px 9.12px 40px;
     border-radius: 40px;
     cursor: pointer;
-}
-=======
 }
 
