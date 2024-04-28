@@ -2,24 +2,141 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
   }
+
+
   body{
-    width: 1440px;
     font-family: 'Poppins', sans-serif;
+    background-color: #F9F9F9;
   }
-  ################# Topics ###############
+
+
+.container{
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 84px;
+  margin: 0 auto;
+}
+
+
+/* header */
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 37px;
+  padding-bottom: 47px;
+}
+
+
+
+.navigation a{
+  padding: 8px 32px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+  border-radius: 40px;
+  transition: .2s;
+}
+
+
+.navigation a:hover{
+  background-color: #4CE0D7;
+}
+
+.navigation img{
+  margin-left: 67px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.navigation img:hover{
+  transform: scale(1.1);
+}
+
+
+.navigation{
+  display: flex;
+  align-items: center;
+}
+
+
+.first-section{
+  background-image: url(Assets/Mask\ group.png);
+  height: 100vh;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex; 
+  justify-content:left;
+  align-items: center;
+  max-width: 1272px;
+  background-position: center;
+}
+
+
+.first-section-content{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  justify-content: center;
+}
+
+
+.first-section-content p{
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 12px;
+  height: 18px;
+  letter-spacing: 0.23em;
+}
+
+
+.first-section-content h1{
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 46px;
+  height: 69px;
+}
+
+.first-section-content span{
+  background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+
+.first-section-content h3{
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  height: 30px;
+  max-width: 494px;
+}
+
+  /* Topics  */
   .topics h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
   }
+
+
   .items h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
   }
+
+
 .items button{
   font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -29,3 +146,4 @@
     padding: 10px 40.1px 9.12px 40px;
     border-radius: 40px;
 }
+
