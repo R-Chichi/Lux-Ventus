@@ -202,6 +202,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-bottom: -28px;
 }
 .fashion a {
   position: absolute;
