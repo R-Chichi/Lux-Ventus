@@ -220,6 +220,8 @@
     align-items: center;
     /* margin-top: 23.34px; */
     margin-bottom: 29.59px;
+    padding-top: 23px;
+    margin-top: -25px;
   }
 
   .fashionheader h3{
@@ -253,6 +255,7 @@
     background-color: #FFFFFF;
     border-radius: 0 0 20px 20px ;
     width: 1204px;
+    margin-bottom: 97px;
 
   }
 
