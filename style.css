@@ -199,6 +199,7 @@ body {
   background-color: #262626;
   top: 23.34px;
   left: 165.27px;
+
 }
 .fashionheader {
   display: flex;
@@ -401,6 +402,94 @@ color: #4CE0D7;
   font-weight: 900;
   font-size: 26px;
 }
+  }
+  .fashionheader{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* margin-top: 23.34px; */
+    margin-bottom: 29.59px;
+    padding-top: 23px;
+    margin-top: -25px;
+  }
+
+  .fashionheader h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #BCBCBC;
+    width: 168px;
+  }
+
+  .fashionheader h3:nth-of-type(1) {
+    margin-left: 20.99px;
+  }
+  .fashionheader h3:nth-of-type(2) {
+    margin-left: 49.99px;
+  }
+
+  .fashionheader h4{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color: #F25E5E;
+    margin-left: 389px;
+
+  }
+
+  .fashiontext {
+    background-color: #FFFFFF;
+    border-radius: 0 0 20px 20px ;
+    width: 1204px;
+    margin-bottom: 97px;
+
+  }
+
+
+  .fashiontext h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #262626;
+    margin-bottom: 23px;
+  }
+
+  .fashiontext p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+    margin-bottom: 30px;
+    max-width: 1033px;
+
+  }
+
+  .new-line {
+    display: block;
+    }
+
+  .readmore h3{
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color: #4CE0D7;
+
+  }
+
+  .readmore {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
 
 /* footer */
 
