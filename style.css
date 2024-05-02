@@ -598,6 +598,9 @@ color: #4CE0D7;
   font-weight: 400;
 }
 
+
+/* ############# Tablet ############### */
+
 @media(max-width: 1000px){
 
   .container {
@@ -634,6 +637,7 @@ color: #4CE0D7;
     /* justify-content: center; */
     flex-direction: column;
     max-width: 900px;
+    
   }
 
 
@@ -704,4 +708,226 @@ color: #4CE0D7;
   margin-right: 150px;
  }
  
+}
+
+@media(max-width: 600px){
+  
+  .container {
+    max-width: 600px;
+    margin-left: none;
+    /* width: 100%; */
+    margin: 0 auto;
+    /* display: flex; */
+    /* align-items: center; */
+  }
+
+
+  .header{
+  display: flex;
+  flex-direction: column;
+  }
+
+  .navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation img{
+  margin-left: 0px;
+  }
+  
+  .first-section {
+    background-image: url(Assets/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: 600px auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-position: center;
+}
+
+  .first-section-content{
+    margin-left: -50px;
+  }
+
+  .first-section-content h1 {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 22px;
+    height: 69px;
+  }
+
+  .first-section-content h3 {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: 15px;
+    height: 30px;
+    max-width: 300px;
+  }
+
+  .line {
+    margin-bottom: 30px;
+  }
+
+  /* ### fashion ####### */
+
+  .headerfashion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* max-width: fit-content; */
+    margin-left: -82px;
+  }
+
+
+  .fashion{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -60px;
+  }
+
+      /* fix it  */
+
+  .fashion img{
+    width: 763px;
+    /* width: fit-content; */
+    padding: none;
+    /* margin: none; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .fashionheader {
+    /* margin-top: -65px; */
+    padding-top: 50px;
+    left: 0;
+    margin-left: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+  }
+
+  .fashion a {
+    margin: none;
+    display: flex;
+    align-self: baseline;
+    left: 0;
+  }
+
+
+  .fashionheader img{
+    /* margin-left: -80px; */
+  }
+  .fashionheader h3{
+    margin-right: -40px;
+
+  }
+  .fashionheader h4{
+    margin-left: 40px;
+
+  }
+
+  .fashiontext {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: baseline;
+    width: 590px;
+  }
+
+  .headerfashion:hover{
+    transform: none;
+  }
+  
+
+
+
+  
+  /* ### trending #### */
+
+  .test{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+    margin-left: -120px;
+  }
+
+  .block{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fourth-section{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /* margin-left: 60px; */
+  }
+
+  .fourth-section-text{
+    margin-left: -40px;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .fourth-section-text h3{
+    margin-left: 10px;
+  }
+
+  .fourth-section-text p{
+    max-width: 400px;
+  }
+
+  
+
+
+
+
+
+
+
+
+ /* ########footer phone ############ */
+
+  .footer-first{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  }
+
+  .footer-first a {
+    align-items: center;
+  }
+  
+ 
+  .footer-navigation{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-self: center;
+    align-items: center;
+    }
+
+   .footer-first a:nth-child(1){
+    margin-right: 0;
+   }
+   .footer{
+    margin-top: 50px;
+   }
+
 }
