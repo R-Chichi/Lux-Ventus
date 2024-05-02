@@ -219,6 +219,18 @@ body {
   /* margin-top: 23.34px; */
   margin-bottom: 29.59px;
 }
+.fashion img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  max-width: 1204px;
+  max-height: 360px;
+  background-position: center;
+}
+
 
 .fashionheader h3 {
   font-size: 14px;
@@ -352,7 +364,8 @@ body {
 
 .profile-info {
   display: flex;
-  gap: 200px;
+  /* gap: 200px; */
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 35px;
   margin-top: 25px;
@@ -583,4 +596,112 @@ color: #4CE0D7;
   max-width: 400px;
   font-size: 16px;
   font-weight: 400;
+}
+
+@media(max-width: 1000px){
+
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 42px; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .header{
+    margin-left: -50px;
+  }
+
+
+
+  .first-section{
+    /* margin-left: 55px; */
+  }
+  .text{
+    /* margin-left: 60px; */
+  }
+  .topics{
+  /* margin-left: 60px; */
+  }
+  .line{
+    margin-bottom: 80px;
+    max-width: 999px;
+  }
+
+  .headerfashion{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    max-width: 900px;
+  }
+
+
+  .fashion{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -60px;
+  }
+
+  .fashion img{
+    max-width: 900px;
+  }
+
+  .fashionheader {
+    /* margin-top: -65px; */
+    padding-top: 50px;
+
+  }
+
+
+  .fashionheader img{
+    margin-left: -30px;
+  }
+  .fashionheader h3{
+    margin-right: -40px;
+
+  }
+  .fashionheader h4{
+    margin-left: 40px;
+
+  }
+
+
+  .fashiontext{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .readmore{
+    display: flex;
+    flex-direction: row;
+    align-self: first baseline;
+  }
+
+  .block img{
+    max-width: 499px;
+  }
+  .test{
+    margin-bottom: 40px;
+  }
+
+  .profile-info{
+    display: flex;
+    flex-direction: row;
+    gap: -100px;
+  }
+ .footer{
+  margin-top: 50px;
+  
+ }
+
+ footer{
+  display: flex;
+  flex-direction: column;
+ }
+ .footer-first a:nth-child(1){
+  margin-right: 150px;
+ }
+ 
 }
