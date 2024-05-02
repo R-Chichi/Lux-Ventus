@@ -190,6 +190,9 @@ body {
   position: relative;
   margin-bottom: -28px;
 }
+.headerfashion:hover{
+  transform: scale(1.1);
+}
 .fashion a {
   position: absolute;
   z-index: 5;
@@ -198,7 +201,7 @@ body {
   color: #ffffff;
   background-color: #262626;
   top: 23.34px;
-  left: 165.27px;
+  left: 79.77px;
 
 }
 
